@@ -3,29 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54075C0363CDA9FF068C1CA4 /* Pods_Color_MagicPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E9EDDA047C411A86B8B3F9 /* Pods_Color_MagicPad.framework */; };
 		F01DBCED268F039000034F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DBCEC268F039000034F3C /* AppDelegate.swift */; };
-		F01DBCEF268F039000034F3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DBCEE268F039000034F3C /* SceneDelegate.swift */; };
-		F01DBCF1268F039000034F3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DBCF0268F039000034F3C /* ViewController.swift */; };
+		F01DBCF1268F039000034F3C /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DBCF0268F039000034F3C /* CategoryViewController.swift */; };
 		F01DBCF4268F039000034F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01DBCF2268F039000034F3C /* Main.storyboard */; };
 		F01DBCF7268F039000034F3C /* Color_MagicPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F01DBCF5268F039000034F3C /* Color_MagicPad.xcdatamodeld */; };
 		F01DBCF9268F039500034F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01DBCF8268F039500034F3C /* Assets.xcassets */; };
 		F01DBCFC268F039500034F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01DBCFA268F039500034F3C /* LaunchScreen.storyboard */; };
+		F01DBD05268F66AE00034F3C /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DBD04268F66AE00034F3C /* ItemTableViewController.swift */; };
+		F01DBD132690490300034F3C /* Catagory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DBD122690490300034F3C /* Catagory.swift */; };
+		F01DBD162690506400034F3C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DBD152690506400034F3C /* Item.swift */; };
+		F055C024269436AF00BEB87A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F055C023269436AE00BEB87A /* SceneDelegate.swift */; };
+		F055C03426943D3B00BEB87A /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F055C03326943D3B00BEB87A /* SwipeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5081D0FFC3D22319D312132 /* Pods-Color-MagicPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Color-MagicPad.debug.xcconfig"; path = "Target Support Files/Pods-Color-MagicPad/Pods-Color-MagicPad.debug.xcconfig"; sourceTree = "<group>"; };
+		B7E9EDDA047C411A86B8B3F9 /* Pods_Color_MagicPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Color_MagicPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40D8D2CF80C85173FBEAA26 /* Pods-Color-MagicPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Color-MagicPad.release.xcconfig"; path = "Target Support Files/Pods-Color-MagicPad/Pods-Color-MagicPad.release.xcconfig"; sourceTree = "<group>"; };
 		F01DBCE9268F039000034F3C /* Color-MagicPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color-MagicPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01DBCEC268F039000034F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F01DBCEE268F039000034F3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F01DBCF0268F039000034F3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F01DBCF0268F039000034F3C /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		F01DBCF3268F039000034F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F01DBCF6268F039000034F3C /* Color_MagicPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Color_MagicPad.xcdatamodel; sourceTree = "<group>"; };
 		F01DBCF8268F039500034F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F01DBCFB268F039500034F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F01DBCFD268F039500034F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F01DBD04268F66AE00034F3C /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		F01DBD122690490300034F3C /* Catagory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catagory.swift; sourceTree = "<group>"; };
+		F01DBD152690506400034F3C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F055C023269436AE00BEB87A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F055C03326943D3B00BEB87A /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwipeTableViewController.swift; path = Pods/SwipeTableViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54075C0363CDA9FF068C1CA4 /* Pods_Color_MagicPad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D41E5B9961EBD004E8D8C14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5081D0FFC3D22319D312132 /* Pods-Color-MagicPad.debug.xcconfig */,
+				D40D8D2CF80C85173FBEAA26 /* Pods-Color-MagicPad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F01DBCE0268F038F00034F3C = {
 			isa = PBXGroup;
 			children = (
 				F01DBCEB268F039000034F3C /* Color-MagicPad */,
 				F01DBCEA268F039000034F3C /* Products */,
+				6D41E5B9961EBD004E8D8C14 /* Pods */,
+				F7E822BB2AF5FF29DBE88E6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +83,51 @@
 			isa = PBXGroup;
 			children = (
 				F01DBCEC268F039000034F3C /* AppDelegate.swift */,
-				F01DBCEE268F039000034F3C /* SceneDelegate.swift */,
-				F01DBCF0268F039000034F3C /* ViewController.swift */,
-				F01DBCF2268F039000034F3C /* Main.storyboard */,
+				F055C023269436AE00BEB87A /* SceneDelegate.swift */,
+				F01DBD182690594000034F3C /* DataModel */,
+				F01DBD082690332700034F3C /* View */,
+				F01DBD072690331500034F3C /* Controller */,
 				F01DBCF8268F039500034F3C /* Assets.xcassets */,
 				F01DBCFA268F039500034F3C /* LaunchScreen.storyboard */,
 				F01DBCFD268F039500034F3C /* Info.plist */,
 				F01DBCF5268F039000034F3C /* Color_MagicPad.xcdatamodeld */,
 			);
 			path = "Color-MagicPad";
+			sourceTree = "<group>";
+		};
+		F01DBD072690331500034F3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F055C03326943D3B00BEB87A /* SwipeTableViewController.swift */,
+				F01DBCF0268F039000034F3C /* CategoryViewController.swift */,
+				F01DBD04268F66AE00034F3C /* ItemTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F01DBD082690332700034F3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F01DBCF2268F039000034F3C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F01DBD182690594000034F3C /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F01DBD122690490300034F3C /* Catagory.swift */,
+				F01DBD152690506400034F3C /* Item.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		F7E822BB2AF5FF29DBE88E6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7E9EDDA047C411A86B8B3F9 /* Pods_Color_MagicPad.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F01DBD00268F039500034F3C /* Build configuration list for PBXNativeTarget "Color-MagicPad" */;
 			buildPhases = (
+				C5E0104FBC41BEB652F56ED8 /* [CP] Check Pods Manifest.lock */,
 				F01DBCE5268F038F00034F3C /* Sources */,
 				F01DBCE6268F038F00034F3C /* Frameworks */,
 				F01DBCE7268F038F00034F3C /* Resources */,
+				3AE510AE1C66760A4627D859 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,15 +197,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AE510AE1C66760A4627D859 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Color-MagicPad/Pods-Color-MagicPad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Color-MagicPad/Pods-Color-MagicPad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Color-MagicPad/Pods-Color-MagicPad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E0104FBC41BEB652F56ED8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Color-MagicPad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F01DBCE5268F038F00034F3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F01DBCF1268F039000034F3C /* ViewController.swift in Sources */,
+				F055C03426943D3B00BEB87A /* SwipeTableViewController.swift in Sources */,
+				F01DBD05268F66AE00034F3C /* ItemTableViewController.swift in Sources */,
+				F055C024269436AF00BEB87A /* SceneDelegate.swift in Sources */,
+				F01DBCF1268F039000034F3C /* CategoryViewController.swift in Sources */,
 				F01DBCED268F039000034F3C /* AppDelegate.swift in Sources */,
-				F01DBCEF268F039000034F3C /* SceneDelegate.swift in Sources */,
 				F01DBCF7268F039000034F3C /* Color_MagicPad.xcdatamodeld in Sources */,
+				F01DBD162690506400034F3C /* Item.swift in Sources */,
+				F01DBD132690490300034F3C /* Catagory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +395,7 @@
 		};
 		F01DBD01268F039500034F3C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5081D0FFC3D22319D312132 /* Pods-Color-MagicPad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +415,7 @@
 		};
 		F01DBD02268F039500034F3C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40D8D2CF80C85173FBEAA26 /* Pods-Color-MagicPad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
